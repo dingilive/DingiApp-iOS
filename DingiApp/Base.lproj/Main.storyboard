@@ -389,7 +389,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Draw Line From GeoJson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNj-Xi-v5q">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reverse GeoCoding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNj-Xi-v5q">
                                                     <rect key="frame" x="16" y="8" width="325" height="27.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -403,6 +403,9 @@
                                                 <constraint firstItem="JNj-Xi-v5q" firstAttribute="top" secondItem="V4A-Hx-d9G" secondAttribute="topMargin" id="u2j-WZ-qP2"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Eh0-P5-zHY" kind="show" id="0UO-8Q-sUz"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="be4-ls-2qc">
                                         <rect key="frame" x="0.0" y="772" width="375" height="44"/>
@@ -506,6 +509,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="khx-Od-IyI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2830" y="1210"/>
+        </scene>
+        <!--Reverse Geocoding View Controller-->
+        <scene sceneID="vMv-tt-zUF">
+            <objects>
+                <viewController id="Eh0-P5-zHY" customClass="ReverseGeocodingViewController" customModule="DingiApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mbp-sg-8W8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Hym-kN-jsK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kba-kq-9QS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3495" y="1206"/>
         </scene>
         <!--Line From Geo Json View Controller-->
         <scene sceneID="urj-Ip-KIH">

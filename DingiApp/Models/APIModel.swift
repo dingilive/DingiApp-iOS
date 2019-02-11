@@ -20,3 +20,13 @@ public struct RouteModel: Codable{
     var time: Float
     var distance: Float
 }
+
+public struct ReverseGeoCodeModel: Codable{
+    var result: ReverseGeoCodeResult
+}
+
+public struct ReverseGeoCodeResult: Codable{
+    var address: String
+}
+
+
