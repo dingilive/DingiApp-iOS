@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		451C9435220FEEEC000D20BA /* CustomCalloutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C9434220FEEEC000D20BA /* CustomCalloutViewController.swift */; };
 		451C9437220FFD58000D20BA /* UserTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C9436220FFD58000D20BA /* UserTrackingViewController.swift */; };
+		451C943922113165000D20BA /* DingiMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C943822113165000D20BA /* DingiMap.framework */; };
+		451C943A22113165000D20BA /* DingiMap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 451C943822113165000D20BA /* DingiMap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		452491A821DE08E100D0A1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452491A721DE08E100D0A1FD /* AppDelegate.swift */; };
 		452491AD21DE08E100D0A1FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452491AB21DE08E100D0A1FD /* Main.storyboard */; };
 		452491B021DE08E100D0A1FD /* DingiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 452491AE21DE08E100D0A1FD /* DingiApp.xcdatamodeld */; };
@@ -36,6 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				451C943A22113165000D20BA /* DingiMap.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +48,7 @@
 /* Begin PBXFileReference section */
 		451C9434220FEEEC000D20BA /* CustomCalloutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutViewController.swift; sourceTree = "<group>"; };
 		451C9436220FFD58000D20BA /* UserTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTrackingViewController.swift; sourceTree = "<group>"; };
+		451C943822113165000D20BA /* DingiMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DingiMap.framework; path = "../../SDK/mapbox-gl-native/build/ios/pkg/dynamic/DingiMap.framework"; sourceTree = "<group>"; };
 		452491A421DE08E100D0A1FD /* DingiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452491A721DE08E100D0A1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		452491AC21DE08E100D0A1FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451C943922113165000D20BA /* DingiMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,7 @@
 		4524919B21DE08E100D0A1FD = {
 			isa = PBXGroup;
 			children = (
+				451C943822113165000D20BA /* DingiMap.framework */,
 				452491A621DE08E100D0A1FD /* DingiApp */,
 				452491A521DE08E100D0A1FD /* Products */,
 			);
