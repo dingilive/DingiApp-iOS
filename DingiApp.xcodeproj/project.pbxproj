@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451C9435220FEEEC000D20BA /* CustomCalloutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C9434220FEEEC000D20BA /* CustomCalloutViewController.swift */; };
+		451C9437220FFD58000D20BA /* UserTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C9436220FFD58000D20BA /* UserTrackingViewController.swift */; };
+		452491A821DE08E100D0A1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452491A721DE08E100D0A1FD /* AppDelegate.swift */; };
+		452491AD21DE08E100D0A1FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452491AB21DE08E100D0A1FD /* Main.storyboard */; };
+		452491B021DE08E100D0A1FD /* DingiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 452491AE21DE08E100D0A1FD /* DingiApp.xcdatamodeld */; };
+		452491B221DE08E300D0A1FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452491B121DE08E300D0A1FD /* Assets.xcassets */; };
+		452491B521DE08E300D0A1FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452491B321DE08E300D0A1FD /* LaunchScreen.storyboard */; };
+		454C83CD220C0B4B00EB7796 /* SwitchMapStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C83CC220C0B4B00EB7796 /* SwitchMapStyleViewController.swift */; };
+		454C83CF220C100500EB7796 /* SnapshotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C83CE220C100500EB7796 /* SnapshotViewController.swift */; };
+		456577BF220C1DDD00B9BF2C /* CameraAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456577BE220C1DDD00B9BF2C /* CameraAnimationViewController.swift */; };
+		456577C2220C24F500B9BF2C /* MarkerWithTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456577C1220C24F500B9BF2C /* MarkerWithTextViewController.swift */; };
+		456577C4220C27B500B9BF2C /* CustomMarkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456577C3220C27B500B9BF2C /* CustomMarkerViewController.swift */; };
+		456577C6220C31D000B9BF2C /* MarkerOnTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456577C5220C31D000B9BF2C /* MarkerOnTapViewController.swift */; };
+		456577C9220C374700B9BF2C /* DrawLineOnTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456577C8220C374700B9BF2C /* DrawLineOnTapViewController.swift */; };
+		456577CB220C396700B9BF2C /* LineFromGeoJsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456577CA220C396700B9BF2C /* LineFromGeoJsonViewController.swift */; };
+		456577CD220C3C9A00B9BF2C /* line.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 456577CC220C3B9700B9BF2C /* line.geojson */; };
+		456577CF220C41BE00B9BF2C /* DrawPolygonOnTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456577CE220C41BE00B9BF2C /* DrawPolygonOnTapViewController.swift */; };
+		456577D1220C551700B9BF2C /* polygon.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 456577D0220C54FF00B9BF2C /* polygon.geojson */; };
+		456577D3220C553800B9BF2C /* PolygonFromGeoJsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456577D2220C553800B9BF2C /* PolygonFromGeoJsonViewController.swift */; };
+		45AA0383220C00EF0003EBBC /* SimpleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA0382220C00EF0003EBBC /* SimpleMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		452491BF21DE093B00D0A1FD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		451C9434220FEEEC000D20BA /* CustomCalloutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutViewController.swift; sourceTree = "<group>"; };
+		451C9436220FFD58000D20BA /* UserTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTrackingViewController.swift; sourceTree = "<group>"; };
+		452491A421DE08E100D0A1FD /* DingiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		452491A721DE08E100D0A1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		452491AC21DE08E100D0A1FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		452491AF21DE08E100D0A1FD /* DingiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DingiApp.xcdatamodel; sourceTree = "<group>"; };
+		452491B121DE08E300D0A1FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		452491B421DE08E300D0A1FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		452491B621DE08E300D0A1FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452491C021DE094B00D0A1FD /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		454C83CC220C0B4B00EB7796 /* SwitchMapStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchMapStyleViewController.swift; sourceTree = "<group>"; };
+		454C83CE220C100500EB7796 /* SnapshotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotViewController.swift; sourceTree = "<group>"; };
+		456577BE220C1DDD00B9BF2C /* CameraAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAnimationViewController.swift; sourceTree = "<group>"; };
+		456577C1220C24F500B9BF2C /* MarkerWithTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerWithTextViewController.swift; sourceTree = "<group>"; };
+		456577C3220C27B500B9BF2C /* CustomMarkerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerViewController.swift; sourceTree = "<group>"; };
+		456577C5220C31D000B9BF2C /* MarkerOnTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerOnTapViewController.swift; sourceTree = "<group>"; };
+		456577C8220C374700B9BF2C /* DrawLineOnTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawLineOnTapViewController.swift; sourceTree = "<group>"; };
+		456577CA220C396700B9BF2C /* LineFromGeoJsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineFromGeoJsonViewController.swift; sourceTree = "<group>"; };
+		456577CC220C3B9700B9BF2C /* line.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = line.geojson; sourceTree = "<group>"; };
+		456577CE220C41BE00B9BF2C /* DrawPolygonOnTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPolygonOnTapViewController.swift; sourceTree = "<group>"; };
+		456577D0220C54FF00B9BF2C /* polygon.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = polygon.geojson; sourceTree = "<group>"; };
+		456577D2220C553800B9BF2C /* PolygonFromGeoJsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonFromGeoJsonViewController.swift; sourceTree = "<group>"; };
+		45AA0382220C00EF0003EBBC /* SimpleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452491A121DE08E100D0A1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4524919B21DE08E100D0A1FD = {
+			isa = PBXGroup;
+			children = (
+				452491A621DE08E100D0A1FD /* DingiApp */,
+				452491A521DE08E100D0A1FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		452491A521DE08E100D0A1FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				452491A421DE08E100D0A1FD /* DingiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		452491A621DE08E100D0A1FD /* DingiApp */ = {
+			isa = PBXGroup;
+			children = (
+				456577C7220C372F00B9BF2C /* Lines and Polygons */,
+				456577C0220C24D700B9BF2C /* Markers */,
+				45AA0381220C00C60003EBBC /* Getting Started */,
+				452491A721DE08E100D0A1FD /* AppDelegate.swift */,
+				452491AB21DE08E100D0A1FD /* Main.storyboard */,
+				452491B121DE08E300D0A1FD /* Assets.xcassets */,
+				452491B321DE08E300D0A1FD /* LaunchScreen.storyboard */,
+				452491B621DE08E300D0A1FD /* Info.plist */,
+				452491AE21DE08E100D0A1FD /* DingiApp.xcdatamodeld */,
+				452491C021DE094B00D0A1FD /* BridgeHeader.h */,
+				456577CC220C3B9700B9BF2C /* line.geojson */,
+				456577D0220C54FF00B9BF2C /* polygon.geojson */,
+			);
+			path = DingiApp;
+			sourceTree = "<group>";
+		};
+		456577C0220C24D700B9BF2C /* Markers */ = {
+			isa = PBXGroup;
+			children = (
+				456577C1220C24F500B9BF2C /* MarkerWithTextViewController.swift */,
+				456577C3220C27B500B9BF2C /* CustomMarkerViewController.swift */,
+				456577C5220C31D000B9BF2C /* MarkerOnTapViewController.swift */,
+				451C9434220FEEEC000D20BA /* CustomCalloutViewController.swift */,
+			);
+			path = Markers;
+			sourceTree = "<group>";
+		};
+		456577C7220C372F00B9BF2C /* Lines and Polygons */ = {
+			isa = PBXGroup;
+			children = (
+				456577C8220C374700B9BF2C /* DrawLineOnTapViewController.swift */,
+				456577CA220C396700B9BF2C /* LineFromGeoJsonViewController.swift */,
+				456577CE220C41BE00B9BF2C /* DrawPolygonOnTapViewController.swift */,
+				456577D2220C553800B9BF2C /* PolygonFromGeoJsonViewController.swift */,
+			);
+			path = "Lines and Polygons";
+			sourceTree = "<group>";
+		};
+		45AA0381220C00C60003EBBC /* Getting Started */ = {
+			isa = PBXGroup;
+			children = (
+				45AA0382220C00EF0003EBBC /* SimpleMapViewController.swift */,
+				454C83CC220C0B4B00EB7796 /* SwitchMapStyleViewController.swift */,
+				454C83CE220C100500EB7796 /* SnapshotViewController.swift */,
+				456577BE220C1DDD00B9BF2C /* CameraAnimationViewController.swift */,
+				451C9436220FFD58000D20BA /* UserTrackingViewController.swift */,
+			);
+			path = "Getting Started";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		452491A321DE08E100D0A1FD /* DingiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452491B921DE08E300D0A1FD /* Build configuration list for PBXNativeTarget "DingiApp" */;
+			buildPhases = (
+				452491A021DE08E100D0A1FD /* Sources */,
+				452491A121DE08E100D0A1FD /* Frameworks */,
+				452491A221DE08E100D0A1FD /* Resources */,
+				452491BF21DE093B00D0A1FD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DingiApp;
+			productName = DingiApp;
+			productReference = 452491A421DE08E100D0A1FD /* DingiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4524919C21DE08E100D0A1FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nafis Islam";
+				TargetAttributes = {
+					452491A321DE08E100D0A1FD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4524919F21DE08E100D0A1FD /* Build configuration list for PBXProject "DingiApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4524919B21DE08E100D0A1FD;
+			productRefGroup = 452491A521DE08E100D0A1FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				452491A321DE08E100D0A1FD /* DingiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		452491A221DE08E100D0A1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456577D1220C551700B9BF2C /* polygon.geojson in Resources */,
+				456577CD220C3C9A00B9BF2C /* line.geojson in Resources */,
+				452491B521DE08E300D0A1FD /* LaunchScreen.storyboard in Resources */,
+				452491B221DE08E300D0A1FD /* Assets.xcassets in Resources */,
+				452491AD21DE08E100D0A1FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452491A021DE08E100D0A1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454C83CF220C100500EB7796 /* SnapshotViewController.swift in Sources */,
+				452491B021DE08E100D0A1FD /* DingiApp.xcdatamodeld in Sources */,
+				456577C6220C31D000B9BF2C /* MarkerOnTapViewController.swift in Sources */,
+				454C83CD220C0B4B00EB7796 /* SwitchMapStyleViewController.swift in Sources */,
+				456577C2220C24F500B9BF2C /* MarkerWithTextViewController.swift in Sources */,
+				456577CB220C396700B9BF2C /* LineFromGeoJsonViewController.swift in Sources */,
+				452491A821DE08E100D0A1FD /* AppDelegate.swift in Sources */,
+				456577D3220C553800B9BF2C /* PolygonFromGeoJsonViewController.swift in Sources */,
+				451C9435220FEEEC000D20BA /* CustomCalloutViewController.swift in Sources */,
+				456577BF220C1DDD00B9BF2C /* CameraAnimationViewController.swift in Sources */,
+				456577C9220C374700B9BF2C /* DrawLineOnTapViewController.swift in Sources */,
+				456577C4220C27B500B9BF2C /* CustomMarkerViewController.swift in Sources */,
+				456577CF220C41BE00B9BF2C /* DrawPolygonOnTapViewController.swift in Sources */,
+				45AA0383220C00EF0003EBBC /* SimpleMapViewController.swift in Sources */,
+				451C9437220FFD58000D20BA /* UserTrackingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		452491AB21DE08E100D0A1FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452491AC21DE08E100D0A1FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		452491B321DE08E300D0A1FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452491B421DE08E300D0A1FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		452491B721DE08E300D0A1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = /Users/nafis0001/ios/DingiApp/DingiApp/BridgeHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		452491B821DE08E300D0A1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		452491BA21DE08E300D0A1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R8NAN79HS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DingiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dingi.DingiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		452491BB21DE08E300D0A1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R8NAN79HS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DingiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dingi.DingiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4524919F21DE08E100D0A1FD /* Build configuration list for PBXProject "DingiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452491B721DE08E300D0A1FD /* Debug */,
+				452491B821DE08E300D0A1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452491B921DE08E300D0A1FD /* Build configuration list for PBXNativeTarget "DingiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452491BA21DE08E300D0A1FD /* Debug */,
+				452491BB21DE08E300D0A1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		452491AE21DE08E100D0A1FD /* DingiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				452491AF21DE08E100D0A1FD /* DingiApp.xcdatamodel */,
+			);
+			currentVersion = 452491AF21DE08E100D0A1FD /* DingiApp.xcdatamodel */;
+			path = DingiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4524919C21DE08E100D0A1FD /* Project object */;
+}
