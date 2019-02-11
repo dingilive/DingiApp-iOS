@@ -41,4 +41,17 @@ public struct poiDetailsModelResult: Codable{
     var website: String
 }
 
+public struct NearbyTypeModel: Codable{
+    var result: [NearbyTypeResult]
+}
+
+public struct NearbyTypeResult: Codable{
+    var id: String
+    var type: String
+    var location: Array<Double>
+    var source: String
+    var address: String
+    var name: String
+    
+}
 
