@@ -21,7 +21,7 @@ bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/DingiMap.framework/strip-f
 
 ### Usage
 
-In a storyboard or XIB, add a view to your view controller. (Drag View from the Object library to the View Controller scene on the Interface Builder canvas.) In the Identity inspector, set the view’s custom class to `MGLMapView`. If you need to manipulate the map view programmatically:
+In a storyboard or XIB, add a view to your view controller. (Drag View from the Object library to the View Controller scene on the Interface Builder canvas.) In the Identity inspector, set the view’s custom class to `DingiMapView`. If you need to manipulate the map view programmatically:
 
 1. Switch to the Assistant Editor.
 1. Import the `DingiMap` module.
@@ -29,20 +29,20 @@ In a storyboard or XIB, add a view to your view controller. (Drag View from the 
 
 ```objc
 // ViewController.m
-@import Mapbox;
+@import DingiMap;
 
 @interface ViewController : UIViewController
 
-@property (strong) IBOutlet MGLMapView *mapView;
+@property (strong) IBOutlet DingiMapView *mapView;
 
 @end
 ```
 
 ```swift
 // ViewController.swift
-import Mapbox
+import DingiMap
 
 class ViewController: UIViewController {
-    @IBOutlet var mapView: MGLMapView!
+    @IBOutlet var mapView: DingiMapView!
 }
 ```
