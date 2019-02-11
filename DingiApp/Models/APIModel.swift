@@ -29,4 +29,16 @@ public struct ReverseGeoCodeResult: Codable{
     var address: String
 }
 
+public struct poiDetailsModel: Codable{
+    var result: poiDetailsModelResult
+}
+public struct poiDetailsModelResult: Codable{
+    var phone_no: String
+    var name: String
+    var location: Array<Double>
+    var type: String
+    var address: String
+    var website: String
+}
+
 

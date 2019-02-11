@@ -15,6 +15,7 @@
 		451C9440221144CE000D20BA /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C943F221144CE000D20BA /* APIModel.swift */; };
 		451C944222114AFF000D20BA /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C944122114AFF000D20BA /* Polyline.swift */; };
 		451C944422116437000D20BA /* ReverseGeocodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C944322116437000D20BA /* ReverseGeocodingViewController.swift */; };
+		451C94462211826F000D20BA /* PoiDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C94452211826F000D20BA /* PoiDetailsViewController.swift */; };
 		452491A821DE08E100D0A1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452491A721DE08E100D0A1FD /* AppDelegate.swift */; };
 		452491AD21DE08E100D0A1FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452491AB21DE08E100D0A1FD /* Main.storyboard */; };
 		452491B021DE08E100D0A1FD /* DingiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 452491AE21DE08E100D0A1FD /* DingiApp.xcdatamodeld */; };
@@ -57,6 +58,7 @@
 		451C943F221144CE000D20BA /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		451C944122114AFF000D20BA /* Polyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
 		451C944322116437000D20BA /* ReverseGeocodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodingViewController.swift; sourceTree = "<group>"; };
+		451C94452211826F000D20BA /* PoiDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoiDetailsViewController.swift; sourceTree = "<group>"; };
 		452491A421DE08E100D0A1FD /* DingiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452491A721DE08E100D0A1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		452491AC21DE08E100D0A1FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				451C943C22113EC5000D20BA /* NavigationAPIViewController.swift */,
 				451C944322116437000D20BA /* ReverseGeocodingViewController.swift */,
+				451C94452211826F000D20BA /* PoiDetailsViewController.swift */,
 			);
 			path = "Dingi API Integration";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				452491A821DE08E100D0A1FD /* AppDelegate.swift in Sources */,
 				456577D3220C553800B9BF2C /* PolygonFromGeoJsonViewController.swift in Sources */,
 				451C9435220FEEEC000D20BA /* CustomCalloutViewController.swift in Sources */,
+				451C94462211826F000D20BA /* PoiDetailsViewController.swift in Sources */,
 				451C944222114AFF000D20BA /* Polyline.swift in Sources */,
 				451C9440221144CE000D20BA /* APIModel.swift in Sources */,
 				456577BF220C1DDD00B9BF2C /* CameraAnimationViewController.swift in Sources */,
