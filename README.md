@@ -6,6 +6,8 @@
 
 This is the recommended workflow for integrating the SDK into an application:
 
+1. Download DingiMap iOS SDK from [here](https://s3-us-west-2.amazonaws.com/dingimap-sdk/DingiMap.framework.zip) and unzip it.
+
 1. Open the project editor, select your application target, then go to the General tab. Drag DingiMap.framework into the “Embedded Binaries” section. (Don’t drag it into the “Linked Frameworks and Libraries” section; Xcode will add it there automatically.) In the sheet that appears, make sure “Copy items if needed” is checked, then click Finish.
 
 1. In the Build Phases tab, click the + button at the top and select “New Run Script Phase”. Enter the following code into the script text field:
